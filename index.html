@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic-tak-toe Game</title>
+    <link rel="stylesheet" href="style..css">
+</head>
+<body>
+    <div class="mag-container hide">
+        <p id="mag">winner</p>
+        <button id="new btn">new game</button>
+    </div>
+    <main>
+        <h1> tic-tak-toe</h1>
+        <div class ="contener">
+            <div class="game">
+             <button class="box"></button>
+             <button class="box"></button>
+             <button class="box"></button>
+             <button class="box"></button>
+             <button class="box"></button>
+             <button class="box"></button>
+             <button class="box"></button>
+             <button class="box"></button>
+             <button class="box"></button>
+            </div>
+        </div>
+        <button id="resetbutton">Reast game</button>
+    </main>
+    <script src="app.js">
+    </script>
+    //<script>
+
+// let boxes=document.querySelectorAll(".box")
+// let resetbtn=document.querySelector("#resetbutton")
+<!-- // let newGameBtn=document.querySelector("#new btn") -->
+// let mascontaner=document.querySelector("mag-container");
+// let mag=document.querySelector("mag")
+
+
+// let turnO=true; //playerX , playerO
+
+// // let arr=["apple","bannaa","litich"];
+
+// //2d array
+// // let arr2=[["apple","litich"],["patoto","masrum"],["pants","shirts"]];
+
+// // 23:27
+// const winPatterns=[
+//     [0,1,2],
+//     [0,3,6],
+//     [0,4,8],
+//     [1,4,7],
+//     [2,5,6],
+//     [3,4,5],
+//     [6,7,8,]
+// ];
+// const resetGame=()=>{
+//     turnO=true
+//     enableBoxes();
+//     mascontaner.classList.add("hide")
+// }
+
+// boxes.forEach((box)=>{
+//     box.addEventListener("click",()=>{
+//         console.log("box was cliked");
+//         // box.innerText="abc";
+//         if(turnO){
+//             box.innerText="o";
+//             turnO=false;
+//         }
+//         else{
+//             box.innerText="x";
+//             turnO=true;
+//         }
+//         box.Disabled =true;
+
+//         cheakWinner();
+
+//     });
+// });
+
+// const DisabledBoxes=()=>{
+//     for(let box of boxes){
+//         box.Disabled=true
+//     }
+// }
+// const enableBoxes=()=>{
+//     for(let box of boxes){
+//         box.Disabled=false
+//         box.innerText=""
+//     }
+// }
+
+// const showWinner=(winner) =>{
+//     mag.innerText=`congreations, Winner is ${winner}`;
+//     mascontaner.classList.remove('hide')
+// }
+
+// const cheakWinner=()=>{
+//     for(let pattern of winPatterns){
+//        // 1 type simple denaaa
+//         // console.log(pattern[0],pattern[1],pattern[3]);
+//         // console.log(boxes[pattern[0]].innerText,
+//         // boxes[pattern[1]].innerText,
+//         // boxes[pattern[3]].innerText);
+
+//         let pos1val=boxes[pattern[0]].innerText;
+//         let pos2val=boxes[pattern[1]].innerText;
+//         let pos3val=boxes[pattern[2]].innerText;
+
+//         if(pos1val !=="" && pos2val !="" & pos3val !=""){
+//             if(pos1val===pos2val && pos2val===pos3val){
+//                 console.log("winer",pos1val)
+//             }
+//         }
+
+//     }
+// }
+// newGameBtn.addEventListener("click",resetGame);
+// resetbtn.addEventListener("click",resetGame);
+
+
+    // </script>
+    
+// </body>
+// </html>
